@@ -1,4 +1,4 @@
- import java.util.*;
+import java.util.*;
 
 /**
  * An interface for a simple unweighted digraph, for use in CS207.
@@ -20,9 +20,9 @@ public interface DiGraphADT
     int nEdges();
  
     /** Adds an edge from node1 to node2
-    If the edge is already present in the graph it should not be duplicated
-    and the method should return false. Otherwise the edge should be added 
-    and the method should return true.
+    If the edge is already present in the graph it should not be duplicated.
+    If the edge already exists in the graph then the method should 
+    return false. Otherwise it should return true.
     @param node1 source node
     @param node2 destination node
     @return  returns true if the edge was not already present. Otherwise 
